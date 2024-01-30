@@ -303,8 +303,4 @@ body {
     100% {
         pointer-events: auto;
     }
-}
-// Default Portfolio Task
-exports.default = series(browserSyncServe, watchTask)
-// Build Portfolio Task
-exports.build = series(Personal Portfolio.css, Personal Portfolio.html)
+
